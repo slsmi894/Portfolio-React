@@ -1,6 +1,6 @@
 import React from 'react';
 
-function name(params) {
+function Nav() {
 
     return (
         <div>
@@ -14,4 +14,4 @@ function name(params) {
     
 }
 
-export default name;
+export default Nav;
