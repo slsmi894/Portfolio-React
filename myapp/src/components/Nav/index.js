@@ -15,16 +15,16 @@ function Nav() {
                 justifyContent: 'space-evenly',
             }}>
                 <div style={linkStyle}>
-                    <a href="#">Home</a>
+                    <a href="/About">Home</a>
                 </div>
                 <div style={linkStyle}>
-                    <a href="#">About</a>
+                    <a href="/About">About</a>
                 </div>
                 <div style={linkStyle}>
-                    <a href="#">Work</a>
+                    <a href="/Work">Work</a>
                 </div>
                 <div style={linkStyle}>
-                    <a href="#">Contact</a>
+                    <a href="/Contact">Contact</a>
                 </div>
                 <div style={linkStyle}>
                     <a href="../images/resume.pdf" target="_blank">Resume</a>
