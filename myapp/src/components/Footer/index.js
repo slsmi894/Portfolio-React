@@ -4,6 +4,7 @@ function Footer() {
 
     return (
         <div>
+            <h6>Footer</h6>
 
 
 
