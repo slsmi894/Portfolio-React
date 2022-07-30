@@ -1,16 +1,17 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 
-function WorkCard(props) {
+function WorkCard({projects}) {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src='../assets/images' />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>{projects.title}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {projects.tech}
         </Card.Text>
+        <Card.Link href="#">{projects.code}</Card.Link>
+        <Card.Link href="#">{projects.repo}</Card.Link>
       </Card.Body>
     </Card>
   );

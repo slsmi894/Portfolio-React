@@ -18,19 +18,11 @@ function About() {
                     I have always enjoyed analyzing processes, understanding them fully, and making improvements that will impact both people positively and improve bottom line, making things better. In my current roles, I enjoy helping people to improve their lives through understanding coding concepts and fundamentals, see them grow and gain confidence. 
                 </p>
                 <p>
-                    I love coding, but when I am not coding, I enjoy my family, my three adorable dogs, cooking, crafts and gardening, and traveling - learning about history or discovering new places and inforamtion.
+                    I love coding, but when I am not coding, I enjoy my family, my three adorable dogs, cooking, crafts and gardening, and traveling - learning about history or discovering new places and information.
                 </p> 
                 </div>
                 
             </div>
-
-
-
-
-
-
-
-
 
 
         </div>

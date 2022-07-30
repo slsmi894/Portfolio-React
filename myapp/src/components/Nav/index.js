@@ -20,16 +20,16 @@ function Nav() {
                 <h1 style={h1Style}>Sandy Smith </h1>
                 
                 <div style={linkStyle}>
-                    <a href="/About">Home</a>
+                    <a href="#home">Home</a>
                 </div>
                 <div style={linkStyle}>
-                    <a href="/About">About</a>
+                    <a href="#about">About</a>
                 </div>
                 <div style={linkStyle}>
-                    <a href="/Work">Work</a>
+                    <a href="#work">Work</a>
                 </div>
                 <div style={linkStyle}>
-                    <a href="/Contact">Contact</a>
+                    <a href="#contact">Contact</a>
                 </div>
                 <div style={{
                 marginRight: '40px', linkStyle

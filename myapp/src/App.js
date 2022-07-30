@@ -3,6 +3,9 @@ import React from 'react';
 import Nav from './components/Nav';
 import Header from './components/Header';
 import About from './components/About';
+// import Work from './components/Work';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import hat from './assets/images/hat.jpeg';
 
 
@@ -14,7 +17,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App" id='home'>
       <Nav />
       <Header />
 
@@ -25,12 +28,16 @@ function App() {
            <img alt='sandy with hat' src={hat} style={opacStyle} />
         </div>
      
-        <About />
+        <About id='about'/>
+        {/* <Work id='work' /> */}
+        <Contact id='contact' />
           
        
 
       </main>
+      <Footer />
     </div>
+
   );
 }
 
