@@ -2,6 +2,7 @@
 import React from 'react';
 import Nav from './components/Nav';
 import Header from './components/Header';
+import About from './components/About';
 import hat from './assets/images/hat.jpeg';
 
 
@@ -19,23 +20,14 @@ function App() {
 
 
 
-
-
-      {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-
-      <main>
-        <img alt='sandy with hat' src={hat} style={opacStyle} />
+      <main style={{ maxWidth: '88%'}}>
+        <div>
+           <img alt='sandy with hat' src={hat} style={opacStyle} />
+        </div>
+     
+        <About />
+          
+       
 
       </main>
     </div>
