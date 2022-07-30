@@ -1,22 +1,17 @@
 import React from 'react';
-import Nav from '../Nav';
+
 
 function Header() {
+    const divStyle = { display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'flex-start', marginLeft: '25px' }
+   
+  
 
     return (
-        <div> 
-            <Nav />
-            <h1>Sandy Smith</h1>
-            <h2>React Portfolio</h2>
-       
-
-
-
-
-
-        </div>
+        <header style={divStyle} >
+ 
+        </header>
     )
-    
+
 }
 
 export default Header;
