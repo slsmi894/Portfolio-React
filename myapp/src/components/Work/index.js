@@ -1,24 +1,24 @@
-import React from 'react';
-import WorkCard from '../WorkCard';
+// import React from 'react';
+// import WorkCard from '../WorkCard';
 
 
 
-const { title, tech, code, repo } = project;
+// const { title, tech, code, repo } = project;
 
 
-function Work() {
+// function Work() {
     
 
-    return (
-        <div>
-            {project.map((project) =>(
-            <WorkCard title={project.title} tech={project.tech} code={project.code} repo={project.repo} key={project.name} />
-            ))}
+//     return (
+//         <div>
+//             {project.map((project) =>(
+//             <WorkCard title={project.title} tech={project.tech} code={project.code} repo={project.repo} key={project.name} />
+//             ))}
             
 
-        </div>
-    )
+//         </div>
+//     )
     
-}
+// }
 
-export default Work;
+// export default Work;

@@ -1,19 +1,35 @@
 import React from 'react';
+// import { NavLink } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 
-function WorkCard({projects}) {
+function WorkCard({ project }) {
+  const indCard = { padding: '5px', margin: '5px' };
+  const linkStyle = { color: 'black'};
+
+  const { title, tech, code, link } = project;
+
+
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src='../assets/images' />
-      <Card.Body>
-        <Card.Title>{projects.title}</Card.Title>
-        <Card.Text>
-          {projects.tech}
-        </Card.Text>
-        <Card.Link href="#">{projects.code}</Card.Link>
-        <Card.Link href="#">{projects.repo}</Card.Link>
-      </Card.Body>
-    </Card>
+    <div className="project" key={title} style={indCard}>
+      <Card style={{ width: '18rem', borderRadius: '25px'}}>
+        <Card.Img style={{ width: '18rem'}} variant="top" src={require(`../../assets/projects/${title}.jpg`)} alt={title} />
+        <Card.Body>
+          <Card.Title>
+            <Card.Link style={linkStyle} href={link}>{title}</Card.Link>
+            <Card.Link href={code}><i className="fab fa-github"></i></Card.Link>
+
+          </Card.Title>
+
+        </Card.Body>
+
+        <Card.Body>
+          <Card.Text>{tech}</Card.Text>
+
+        </Card.Body>
+      </Card>
+
+    </div>
+
   );
 }
 

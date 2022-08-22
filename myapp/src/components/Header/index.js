@@ -2,7 +2,7 @@ import React from 'react';
 
 
 function Header() {
-    const divStyle = { display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'flex-start', marginLeft: '25px' }
+    const divStyle = { maxHeight: '20vh' }
    
   
 

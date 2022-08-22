@@ -1,24 +1,24 @@
-import React from 'react';
-
 function Nav() {
-    const linkStyle = { padding: '2px' }
+    const linkStyle = { padding: '1px', color: '#fffdf7', hover: 'background: pink', transitionDuration: '0.5s'}
     const h1Style = { fontSize: '5em', marginLeft: '20px' }
+    const fontWhite = { color: 'rgb(255,253,247)', fontFamily: 'Times Roman' }
+ 
+
     return (
 
 
-        <nav style={{backgroundColor: 'grey' }} >
+        <nav style={fontWhite}>
 
             <section style={{
                 display: 'flex',
-                fontFamily: 'helvetica',
                 flexDirection: 'row',
                 justifyContent: 'space-between',
                 alignItems: 'center',
                 lineHeight: '.5',
-                hover: 'color: black',
+
             }}>
                 <h1 style={h1Style}>Sandy Smith </h1>
-                
+
                 <div style={linkStyle}>
                     <a href="#home">Home</a>
                 </div>
@@ -32,15 +32,15 @@ function Nav() {
                     <a href="#contact">Contact</a>
                 </div>
                 <div style={{
-                marginRight: '40px', linkStyle
-            }}>
+                    marginRight: '40px', linkStyle
+                }}>
                     <a href="../images/resume.pdf" target="_blank">Resume</a>
                 </div>
-                
+
 
             </section>
 
-            <p style={{ fontSize: '2em'}} >React Portfolio</p>
+            <p style={{ fontSize: '2em', fontFamily: 'Times Roman', }} >React Portfolio</p>
 
 
 

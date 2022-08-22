@@ -1,38 +1,39 @@
 // import logo from './logo.svg';
 import React from 'react';
-import Nav from './components/Nav';
-import Header from './components/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navigation from './components/Navigation';
+// import Header from './components/Header';
 import About from './components/About';
-// import Work from './components/Work';
+import Home from './components/Home';
+import WorkInfo from './components/WorkInfo';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import hat from './assets/images/hat.jpeg';
+
+
 
 
 import './App.css';
 
 function App() {
-  const opacStyle = { opacity: '0.3', borderColor: 'rgb(248,248,255, 0.1)', borderRadius: '10%', minHeight: '400px', display: 'flex', justifyContent: 'flex-end', marginLeft: '50px' }
 
 
 
   return (
-    <div className="App" id='home'>
-      <Nav />
-      <Header />
+    <div style={{ backgroundColor: '#ffffff', maxHeight: '600vh' }} className="App" id='home' >
+      <Navigation fixed="top" />
 
 
+      <div>
+        <Home />
+      </div>
 
-      <main style={{ maxWidth: '88%'}}>
-        <div>
-           <img alt='sandy with hat' src={hat} style={opacStyle} />
-        </div>
-     
-        <About id='about'/>
+      <main style={{ maxWidth: '88%', marginTop: '20px' }}>
+
+        <About id='about' />
         {/* <Work id='work' /> */}
+
+        <WorkInfo />
         <Contact id='contact' />
-          
-       
 
       </main>
       <Footer />
