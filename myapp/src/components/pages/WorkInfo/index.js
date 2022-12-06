@@ -4,7 +4,7 @@ import WorkCard from "../WorkCard";
 
 function WorkInfo() {
     const appStyle = { margin: '100px auto'}
-    const cardStyle = { display: 'flex', flexBasis: 'calc(60% - 3em)', margin: '0 auto', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-around', width: '60%'};
+    const cardStyle = { display: 'flex', flexBasis: 'calc(80% - 3em)', margin: '0 auto', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-around', width: '100%'};
     const fontWhite = { color: 'rgb(255, 255, 255)', textShadow: '3px 3px black', margin: '0 0 50px 0', display: 'flex', justifyContent: 'center' };
     const [projects] = useState([
 
