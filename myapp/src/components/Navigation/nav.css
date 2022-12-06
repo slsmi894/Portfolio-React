@@ -1,0 +1,55 @@
+.nav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: space-between;
+  font-family: 'sans' serif;
+  font-size: 1rem;
+  border: none;
+  border-radius: none;
+}
+
+
+ul.nav.nav-tabs {
+  margin: 0;
+  border-radius: none;
+  background: lightgray;
+  border-bottom: 2px solid grey;
+}
+.nav li {
+  cursor: pointer;
+  margin: 0 10px;
+  background-color: none;
+  border-radius: none;
+}
+.nav a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+
+
+
+
+/*@media only screen and (max-width: 1300px) {
+  .nav {
+    position: static;
+    display: block;
+    z-index: 100;
+    margin: 0 10px;
+    font-size: 2rem;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+  .nav {
+    position: static;
+    display: block;
+    z-index: 100;
+    margin: 0 10px;
+    font-size: 1.3rem;
+  }
+
+} */
