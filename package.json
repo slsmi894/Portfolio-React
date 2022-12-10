@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "4.0.1"
